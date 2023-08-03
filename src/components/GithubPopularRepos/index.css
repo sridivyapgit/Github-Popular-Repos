@@ -1,0 +1,57 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  font-family: Lobster;
+  font-size: 44px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.language-filters-list {
+  align-self: stretch;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.repository-lists-container {
+  align-self: stretch;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.failure-view {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px;
+}
+
+.failure-view-text {
+  font-family: Bree serif;
+  font-size: 38px;
+  font-weight: 600;
+  margin-top: 0;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .language-filters-list {
+    justify-content: center;
+  }
+  .repository-lists-container {
+    justify-content: center;
+  }
+}

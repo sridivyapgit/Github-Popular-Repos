@@ -1,0 +1,20 @@
+.language-filter-item-conatiner {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.filter-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #0f172a;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 16px;
+}
+
+.active-language {
+  border: 2px solid #0284c7;
+  color: #0284c7;
+}
